@@ -79,14 +79,12 @@ It is assumed that the gender, marital status, and income factors are key driver
 
 ### 5.1. Results:
 
+Visualization of the Dashboard
+
+![Screenshot_20241012-212601](https://github.com/user-attachments/assets/38f0ccb3-a644-4ba6-8921-dbe6fa06c11e)
 
 
-
-
-
-
-
-
+### 5.2. Interpretation
 ##After cleaning the data, the following observations were made:
 Income Distribution: There is variability in income levels across individuals, most people who earn within the average of the demography purchase bike.
 Marital Status and Gender Influence: From the cleaned data, patterns emerged showing potential differences in bike purchase behavior based on marital status and gender.
