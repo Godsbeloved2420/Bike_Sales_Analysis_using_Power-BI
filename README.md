@@ -4,7 +4,7 @@ Bike Sales Analysis using Power-BI
 
 ## 2.0. Introduction
 
-## 2.1. Objective: 
+### 2.1. Objective: 
 
 The purpose of this analysis is:
 
@@ -12,7 +12,7 @@ i) to visualize  how various demographic factors such as income, gender, region 
 
 ii) identify patterns and trends in the dataset that could allow the bike sales company make informed decisions.
 
-## 2.2. Context: 
+### 2.2. Context: 
 
 The dataset is made up of data collected by a company that deals on bike. The different fields contain different socio-demographic and bike purchase information of the customers. Which includes: ID,	Marital Status,	Gender,	Income,	Children,	Education,	Occupation,	Home Owner,	Cars,	Commute Distance,	Region,	Age,	Purchased Bike. The dataset contains two datatypes: strings and integers.
 
@@ -51,27 +51,43 @@ f) car owners that decided to purchase bike.
 ### 4.1. Data preprocessing
 
 The dataset was imported and loaded into Microsoft Power BI. The dataset was transformed using 'Power Query'
-Handling duplicates and Missing Values:
+#### Handling duplicates and Missing Values:
 
 Missing or incomplete data points were checked. The dataset had no missing values. The data set was examined for duplicate values. The dataset contained 26 duplicates which were found and removed. 
 
-Data Transformation: The gender and marital status columns were transformed from coded values ("M", "F",, “M”, "S") to more descriptive text labels ("Male", "Female", "Married", "Single").
+#### Data Transformation
+
+The gender and marital status columns were transformed from coded values ("M", "F",, “M”, "S") to more descriptive text labels ("Male", "Female", "Married", "Single").
 
 The income column was also rounded to 0 decimal places for consistency.
 
 Feature Engineering: No additional features were created, but transformations were made to ensure proper data handling and interpretation.
 
-Analytical Approach:
+### 4.2. Analytical Approach:
+
 The analysis focuses on basic exploratory statistics and visualizations. No advanced machine learning models or complex statistical tests were used. The analysis relies on descriptive statistics and visual examination to draw insights.
-Assumptions:
+
+### 4.3. Assumptions
+
 It is assumed that the data set is a representative sample of the population of interest.
+
+
 It is assumed that the gender, marital status, and income factors are key drivers of bike purchase decisions, though other factors could also play a role.
 
 
-Analysis
+## 5.0. Analysis
 
-Results:
-After cleaning the data, the following observations were made:
+### 5.1. Results:
+
+
+
+
+
+
+
+
+
+##After cleaning the data, the following observations were made:
 Income Distribution: There is variability in income levels across individuals, most people who earn within the average of the demography purchase bike.
 Marital Status and Gender Influence: From the cleaned data, patterns emerged showing potential differences in bike purchase behavior based on marital status and gender.
 Interpretation:
