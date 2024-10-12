@@ -115,3 +115,8 @@ The insights on demographic patterns can be used to inform targeted marketing st
 
 #### Limitations
 Further research could include additional factors, such as geographic location or education level, to provide a more comprehensive analysis.
+
+## 7.0. Acknowledgement
+
+I acknowledge PSP Analytics for this great platform for learning. I want to sincerely our facilitators (Mr. Okon Prince, Mr. Joseph Edet, Mr. Joseph Elijah and Mr. Zion) for providing the dataset that was used for this analysis and for their tireless efforts to ensure we get the best from the training. Microsoft Power BI was employed in this analysis.
+
