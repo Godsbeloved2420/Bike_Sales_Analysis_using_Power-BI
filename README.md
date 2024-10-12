@@ -112,5 +112,6 @@ Lifestyle Considerations: Short commute distances and a lack of car ownership ar
 ### 7.0. Recommendations
 
 The insights on demographic patterns can be used to inform targeted marketing strategies, such as promoting bikes to specific income group’s e.g the middle age bracket or tailoring messaging for married vs. single customers.
-Limitations:
+
+#### Limitations
 Further research could include additional factors, such as geographic location or education level, to provide a more comprehensive analysis.
