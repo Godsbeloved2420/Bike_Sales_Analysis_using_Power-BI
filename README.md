@@ -14,9 +14,16 @@ ii) identify patterns and trends in the dataset that could allow the bike sales 
 
 ## 2.2. Context: 
 
-In the context of this analysis, we are investigating a data set that includes information on individuals’ demographic factors. 
-Data Sources: The data set used for this analysis was obtained from an Excel file which contains several demographic columns such as Marital Status, Gender, and Income, among others. 
-3. Data Understanding.
+The dataset is made up of data collected by a company that deals on bike. The different fields contain different socio-demographic and bike purchase information of the customers. Which includes: ID,	Marital Status,	Gender,	Income,	Children,	Education,	Occupation,	Home Owner,	Cars,	Commute Distance,	Region,	Age,	Purchased Bike. The dataset contains two datatypes: strings and integers.
+
+### 2.3. Data Sources
+
+The primary source of data used here is bikedata.xlsx which was gotten as an excel file and it's an open source data which was given as a practice data. The following is the link to the dataset: 
+
+https://docs.google.com/spreadsheets/d/1qzPm4m7N8K8KQcNwRcOZfbIZJ5YC0t0O/edit?usp=drive_link&ouid=106458428464023242528&rtpof=true&sd=true
+
+## 2.4. Data Understanding
+
 Data Description: The data set contains columns like:
 Marital Status: Both married and single customers are well-represented. 
 Gender: The data set includes a mix of male and female customers.
@@ -39,7 +46,10 @@ The analysis focuses on basic exploratory statistics and visualizations. No adva
 Assumptions:
 It is assumed that the data set is a representative sample of the population of interest.
 It is assumed that the gender, marital status, and income factors are key drivers of bike purchase decisions, though other factors could also play a role.
+
+
 Analysis
+
 Results:
 After cleaning the data, the following observations were made:
 Income Distribution: There is variability in income levels across individuals, most people who earn within the average of the demography purchase bike.
