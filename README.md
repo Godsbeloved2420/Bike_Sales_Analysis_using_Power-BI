@@ -84,23 +84,33 @@ Visualization of the Dashboard
 ![Picture2](https://github.com/user-attachments/assets/d5cf6879-920a-43c1-94c1-a25fec6582a1)
 
 
-
 ### 5.2. Interpretation
-##After cleaning the data, the following observations were made:
-Income Distribution: There is variability in income levels across individuals, most people who earn within the average of the demography purchase bike.
-Marital Status and Gender Influence: From the cleaned data, patterns emerged showing potential differences in bike purchase behavior based on marital status and gender.
-Interpretation:
-The initial EDA suggests that:
-Married individuals might show different purchase behaviors compared to singles, potentially due to differences in financial situations.
+
+After cleaning the data, the following observations were made:
+
+- Income Distribution
+  
+There is variability in income levels across individuals, most people who earn within the average of the demography purchased bike.
+
+- Marital Status and Gender Influence
+
+  Patterns emerged showing potential differences in bike purchase behavior based on marital status and gender.
+  
+- Married individuals might show different purchase behaviours compared to singles, potentially due to differences in financial situations.
 Gender may also play a role in influencing bike purchases.
-Validation:
-No specific validation techniques were used in this analysis. 
-6. Conclusion
-Key Insights:
+
+## 6.0. Conclusion
+
+### 6.1. Summary of findings
+
 Target Demographic: Middle-aged individuals with moderate to high income seem like potential target customers for bike marketing.
+
 Regional Focus: Regions with higher purchase rates should receive targeted marketing, while regions with lower rates might benefit from awareness campaigns.
+
 Lifestyle Considerations: Short commute distances and a lack of car ownership are lifestyle factors that could be highlighted in marketing campaigns to attract more bike buyers.
-Recommendations:
+
+### 7.0. Recommendations
+
 The insights on demographic patterns can be used to inform targeted marketing strategies, such as promoting bikes to specific income group’s e.g the middle age bracket or tailoring messaging for married vs. single customers.
 Limitations:
 Further research could include additional factors, such as geographic location or education level, to provide a more comprehensive analysis.
