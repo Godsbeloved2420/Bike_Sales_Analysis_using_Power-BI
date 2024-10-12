@@ -22,7 +22,66 @@ The primary source of data used here is bikedata.xlsx which was gotten as an exc
 
 https://docs.google.com/spreadsheets/d/1qzPm4m7N8K8KQcNwRcOZfbIZJ5YC0t0O/edit?usp=drive_link&ouid=106458428464023242528&rtpof=true&sd=true
 
-## 2.4. Data Understanding
+
+
+## 3.0. Data Understanding
+
+### 3.1. Data description
+The dataset was gotten in a structured form and contains 1,026 rows and 13 columns. 
+
+### 3.2. Exploratory data analysis (EDA)
+
+Microsoft Power BI was implored in cleaning, analyzing and visualizing the dataset. At the end of the analysis, we were able to visualize:
+
+a) region that made the highest purchase.
+
+b) gender that made the highest purchase.
+
+c) commute distance that made the highest bike purchase.
+
+d) age bracket and region that purchased bike most 
+
+e) educational qualification that purchased bike most
+
+f) car owners that decided to purchase bike.
+
+
+## 4.0. Methodology
+
+### 4.1. Data preprocessing
+
+The dataset was imported into Google Drive then into Google Colab. The different libraries were also imported (Numpy, pandas, Matplotlib and Seaborn). The dataset was called 'file'.
+
+#### Some of the steps taken in cleaning of the dataset includes:
+
+a) removing of duplicates (file.drop_duplicates (inplace = True)
+
+b) replacing 'M' and 'S' in the Marital Status column of the dataset with 'Married' and 'Single' respectively 
+
+```Python
+file['Marital Status']=file['Marital Status'].replace(['M','S'],['Married','Single'])
+```
+
+c) replacing 'M' and 'F' in the Gender column with 'Male' and 'Female' respectively 
+
+```Python
+file['Gender']=file['Gender'].replace(['M','F'],['Male','Female']).
+```
+
+d) grouping 'Age' into different age brackets.
+
+```Python
+def age_grouping(age):
+    if age<=30:
+        return 'Adolescent'
+    elif age<=54:
+        return 'Middle Age'
+    else:
+        return 'old'
+    
+file['Age Bracket']=file['Age'].apply(age_grouping)
+```
+
 
 Data Description: The data set contains columns like:
 Marital Status: Both married and single customers are well-represented. 
