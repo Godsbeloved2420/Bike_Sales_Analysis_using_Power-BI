@@ -81,7 +81,8 @@ It is assumed that the gender, marital status, and income factors are key driver
 
 Visualization of the Dashboard
 
-![picture 1](https://github.com/user-attachments/assets/48e5b6e8-5855-493e-8023-6adb7ee77074)
+![Picture2](https://github.com/user-attachments/assets/d5cf6879-920a-43c1-94c1-a25fec6582a1)
+
 
 
 ### 5.2. Interpretation
