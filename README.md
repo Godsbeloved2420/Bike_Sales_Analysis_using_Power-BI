@@ -50,56 +50,17 @@ f) car owners that decided to purchase bike.
 
 ### 4.1. Data preprocessing
 
-The dataset was imported into Google Drive then into Google Colab. The different libraries were also imported (Numpy, pandas, Matplotlib and Seaborn). The dataset was called 'file'.
+The dataset was imported and loaded into Microsoft Power BI. The dataset was transformed using 'Power Query'
+Handling duplicates and Missing Values:
 
-#### Some of the steps taken in cleaning of the dataset includes:
+Missing or incomplete data points were checked. The dataset had no missing values. The data set was examined for duplicate values. The dataset contained 26 duplicates which were found and removed. 
 
-a) removing of duplicates (file.drop_duplicates (inplace = True)
+Data Transformation: The gender and marital status columns were transformed from coded values ("M", "F",, “M”, "S") to more descriptive text labels ("Male", "Female", "Married", "Single").
 
-b) replacing 'M' and 'S' in the Marital Status column of the dataset with 'Married' and 'Single' respectively 
+The income column was also rounded to 0 decimal places for consistency.
 
-```Python
-file['Marital Status']=file['Marital Status'].replace(['M','S'],['Married','Single'])
-```
-
-c) replacing 'M' and 'F' in the Gender column with 'Male' and 'Female' respectively 
-
-```Python
-file['Gender']=file['Gender'].replace(['M','F'],['Male','Female']).
-```
-
-d) grouping 'Age' into different age brackets.
-
-```Python
-def age_grouping(age):
-    if age<=30:
-        return 'Adolescent'
-    elif age<=54:
-        return 'Middle Age'
-    else:
-        return 'old'
-    
-file['Age Bracket']=file['Age'].apply(age_grouping)
-```
-
-
-Data Description: The data set contains columns like:
-Marital Status: Both married and single customers are well-represented. 
-Gender: The data set includes a mix of male and female customers.
-Income: Income levels vary across customers.
-Age Bracket: The customers are grouped into Youth, Middle Age, and Old brackets, with a higher concentration in the Middle Age group.
-Purchased Bike: Shows whether the person has purchased a bike or not using boolean (Yes/No) etc.
-The data set was examined for duplicate values (26), which were found and removed. Several columns, such as marital status and gender, were cleaned to replace abbreviations with full text (e.g., "M" with "Married" and "S" with "Single"). The income column was also rounded to 0 decimal places for consistency.
-Exploratory Data Analysis (EDA):
-Initial data exploration involved:
-Checking for duplicates and removing them.
-Cleaning the columns for better readability.
-Visualizing the distribution of key factors like gender, marital status, and income levels.
-4. Methodology
-Data Processing:
-Handling Missing Values: Missing or incomplete data points were checked, though no specific mention of missing data handling was observed in the notebook.
-Data Transformation: The gender and marital status columns were transformed from coded values ("M", "F",, “M”, "S") to more descriptive text labels ("Male", "Female", "Married", "Single"). The income data was also rounded for simplified analysis.
 Feature Engineering: No additional features were created, but transformations were made to ensure proper data handling and interpretation.
+
 Analytical Approach:
 The analysis focuses on basic exploratory statistics and visualizations. No advanced machine learning models or complex statistical tests were used. The analysis relies on descriptive statistics and visual examination to draw insights.
 Assumptions:
